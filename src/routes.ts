@@ -2,7 +2,6 @@ import { Request, Response, Router } from 'express';
 import { NodemailerMailAdapter } from './adapters/NodeMailer/NodemailerMailAdapter';
 import { PrismaFeedbacksRepository } from './repositories/prisma/PrismaFeedbacksRepository';
 import { SubmitFeedBackUseCase } from './useCases/SubmitFeedbackUseCase';
-// import { createTransport } from 'nodemailer';
 
 export const routes = Router();
 
